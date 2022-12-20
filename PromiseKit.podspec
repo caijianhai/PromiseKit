@@ -45,7 +45,7 @@ Pod::Spec.new do |s|
   s.subspec 'Alamofire' do |ss|
     ss.source_files = 'Extensions/Alamofire/Sources/**/*'
     ss.exclude_files = 'Extensions/Alamofire/Sources/*.plist'
-    ss.dependency 'Alamofire', '~> 4.0'
+    ss.dependency 'Alamofire', '~> 5.0'
     ss.dependency 'PromiseKit/CorePromise'
     ss.ios.deployment_target = '8.0'
     ss.osx.deployment_target = '10.11'
